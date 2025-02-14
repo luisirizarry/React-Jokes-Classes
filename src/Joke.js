@@ -1,9 +1,7 @@
 import React from "react";
 import "./Joke.css"
 
-const Joke1 = ({ id, vote, votes, text }) => {
-
-
+const Joke = ({ id, vote, votes, text }) => {
     return (
         <div className="Joke">
         <div className="Joke-votearea">
@@ -23,4 +21,4 @@ const Joke1 = ({ id, vote, votes, text }) => {
     )
 }
 
-export default Joke1;
+export default Joke;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import JokeList from "./JokeList";
+import JokeList1 from "./JokeList1";
 
 /** App component. Renders list of jokes. */
 
@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <JokeList />
+        <JokeList1 />
       </div>
     );
   }
